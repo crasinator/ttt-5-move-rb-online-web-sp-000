@@ -13,6 +13,7 @@ space.to_i - 1
 end
 
 def move(board, index, player)
+  player = "x"
   board[index] = player
 end
 
