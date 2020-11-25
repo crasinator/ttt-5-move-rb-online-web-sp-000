@@ -11,5 +11,6 @@ input = gets.strip
 
 index = input_to_index(input)
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 move(board, index, player)
 
